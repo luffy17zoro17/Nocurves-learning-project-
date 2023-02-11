@@ -42,7 +42,7 @@ const PageOne = () => {
       <LeftBar/>
      <div className="flex flex-col items-center
          text-center bg-yellow-400 z-[-10]"> 
-       <div className="h-[400rem] w-[60%]
+       <div className="z-0 h-[400rem] w-[60%]
          md:mt-[-3rem] lg:mt-[0rem]">
            <TextProp
              title={`Welcome To Nocurves`}
@@ -54,16 +54,18 @@ const PageOne = () => {
              tdivclassN={`pt-[8rem] lg:pt-[22rem]
                space-y-11 md:space-y-8 lg:space-y-11`}
            />
+           
            {LeftI.map((letter)=>(
-           <div key={letter.id} className="z-[-10]"> 
+           <div key={letter.id} className=""> 
             <TextProp title={letter.title} 
               titleclassN={`text-[9rem] font-bold
-              `}
+               `}
               tdivclassN={`mt-[44rem] pr-[18rem] sm:pr-[0rem]
                  sm:flex sm:justify-center sm:pl-4`}
             />
            </div>
            ))}
+          
 
        </div> 
        <div className="flex justify-center">

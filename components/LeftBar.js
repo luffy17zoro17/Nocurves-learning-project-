@@ -9,8 +9,9 @@ const LeftBar = ()=>{
     return (
        <div className={`fixed bottom-0 left-0 
        text-white 
-       w-[10rem] p-4 shadow shadow-black z-30
+       w-[8rem] p-4 shadow shadow-black z-50
        transition ease-in-out delay-120 duration-300
+       md:w-[10rem]
           ${rightBarValue===4 ? `translate-y-[-4rem]` 
        : `translate-y-[22rem]`}`}>
          <div className="h-full w-full absolute 
@@ -18,6 +19,7 @@ const LeftBar = ()=>{
          <TextProp
             details={`Ive just noticed my projects look lifeless 
             due to the lack of movements.${' '}So...`}
+            
          />
        </div> 
     );

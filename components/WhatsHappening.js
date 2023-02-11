@@ -72,14 +72,14 @@ const WhatsHappening = () => {
           <div className="relative flex items-center">
           <div> 
           <div className={`fixed right-0 h-[11rem] w-[13vw]
-             bg-purple-900 top-0 shadow shadow-black
+             bg-purple-900 top-0 shadow shadow-black z-40
              ${rightBarValue===4 ? `translate-y-[-6rem] translate-x-[0vw]` 
                  : rightBarValue===0 ? `translate-x-[151vw]` : `translate-x-[151vw]`}`}/>
+
           <div className={`bg-gradient-to-r from-black via-purple-900 to-gray-700 z-30
             bg-red-500 fixed top-[10rem] transition delay-120 duration-300 ease-in-out py-5
                   right-0 shadow shadow-black w-[16rem] lg:w-[22rem] overflow-y-scroll
-                   bottom-0 lg:overflow-y-hidden lg:hover:overflow-y-auto
-
+                   bottom-0 h-screen lg:overflow-y-hidden lg:hover:overflow-y-auto
                ${rightBarValue===4 ? `translate-y-[-6rem] translate-x-[0vw]` 
                  : rightBarValue===0 ? `translate-x-[151vw]` : `translate-x-[151vw]`}`}>  
 

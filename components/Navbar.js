@@ -56,7 +56,7 @@ const Navbar = () => {
 
     return (
        <div className="fixed w-full h-[3.5rem]
-          flex justify-center left-0">
+          flex justify-center left-0 z-30">
         
            
              <TextProp title={`N`} titleclassN={`
