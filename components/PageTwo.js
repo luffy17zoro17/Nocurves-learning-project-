@@ -66,7 +66,7 @@ const PageTwo = ()=> {
                   
                 </div> 
 
-                <div className="left-0 z-30 bg-red-400
+                <div className="left-0 z-10 bg-red-400
                    transition ease-out delay-120 duration-300
                    bottom-0 fixed cursor-pointer 
                    translate-x-[5vw] translate-y-[-1vw] 
@@ -114,7 +114,7 @@ const PageTwo = ()=> {
                         
                         </div> 
 
-                        <div className="fixed bottom-0 left-0 z-30 bg-red-400
+                        <div className="fixed bottom-0 left-0 z-10 bg-red-400
                           transition ease-in delay-120 duration-300
                           translate-x-[-66vw] translate-y-[66vw]
                           ">

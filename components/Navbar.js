@@ -61,7 +61,7 @@ const Navbar = () => {
            
              <TextProp title={`N`} titleclassN={`
               font-bold text-red-500 border-red-500 z-50
-               absolute
+               absolute shadow shadow-black
                border-4 px-[0.5rem] top-2 text-[1.3rem] border-double
                `}
                tdivclassN={`flex justify-center left-0
