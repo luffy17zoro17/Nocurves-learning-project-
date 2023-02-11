@@ -98,7 +98,7 @@ const PageTwo = ()=> {
                         <div>
                         <div className={`fixed right-0 z-10 bg-orange-300
                             transition ease-in delay-120 duration-300
-                            translate-x-[66vw] translate-y-[-66vw]
+                            translate-x-[77vw] translate-y-[-77vw]
                             top-0`}>
                           <TextProp 
                           title={`Created by- Thomas Mathew`} 
@@ -116,7 +116,7 @@ const PageTwo = ()=> {
 
                         <div className="fixed bottom-0 left-0 z-10 bg-red-400
                           transition ease-in delay-120 duration-300
-                          translate-x-[-66vw] translate-y-[66vw]
+                          translate-x-[-77vw] translate-y-[77vw]
                           ">
                         <div className="relative flex justify-center
                           flex-col items-center">   
