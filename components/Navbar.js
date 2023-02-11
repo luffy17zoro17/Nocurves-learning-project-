@@ -85,8 +85,8 @@ const Navbar = () => {
             {NavRight.map((item)=>(
                 <div key={item.id}>
                     <IconProp icon={item.icon} icoclassN={`border-4 border-green-500
-                     p-1 hover:rotate-180 hover:border-yellow-300 cursor-pointer
-                     hover:text-green-500
+                     p-1 hover:border-yellow-300 cursor-pointer
+                     hover:text-green-500 shadow-inner shadow-black hover:rotate-3
                       ${item.id===1 ? `hidden md:flex` : item.id===2 ? `hidden lg:flex` : `flex`}`}/>
                 </div>
             ))}

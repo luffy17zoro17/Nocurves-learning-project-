@@ -44,7 +44,7 @@ const PageTwo = ()=> {
                  <div className={`fixed right-0 z-0 bg-orange-300
                       transition ease-out delay-120 duration-300
                      translate-x-[-5vw] translate-y-[14vw] top-0 
-                     
+                     hover:rotate-3
                      md:translate-x-[-4vw] md:translate-y-[9vw]
                      lg:translate-x-[-17vw] lg:translate-y-[17vw]
 
