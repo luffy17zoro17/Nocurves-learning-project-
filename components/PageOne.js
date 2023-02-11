@@ -47,7 +47,7 @@ const PageOne = () => {
          md:mt-[-3rem] lg:mt-[0rem]">
            <TextProp
              title={`Welcome To Nocurves`}
-             titleclassN={`
+             titleclassN={`leading-[5rem]
                text-6xl font-bold`}
              details={`We dont do curves around here!`}  
              detailclassN={`text-lg`}
