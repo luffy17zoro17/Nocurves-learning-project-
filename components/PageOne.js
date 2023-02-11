@@ -41,7 +41,8 @@ const PageOne = () => {
      <div> 
       <LeftBar/>
      <div className="flex flex-col items-center
-         text-center bg-yellow-400 z-[-10]"> 
+         text-center bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 
+         z-[-10]"> 
        <div className="z-0 h-[400rem] w-[60%]
          md:mt-[-3rem] lg:mt-[0rem]">
            <TextProp
