@@ -87,7 +87,7 @@ const WhatsHappening = () => {
                
            {whatsContent.map((item)=>(
               <div key={item.id} className="py-3 px-7 text-yellow-500 pb-6
-                  hover:bg-gray-700 cursor-pointer shadow shadow-black">
+                  hover:bg-green-900 cursor-pointer shadow shadow-black">
                  <TextProp
                    title={item.category}
                    details={item.title}

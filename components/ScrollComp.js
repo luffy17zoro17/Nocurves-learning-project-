@@ -17,7 +17,7 @@ const ScrollComp = () => {
           <IconProp 
             icon={<SouthIcon className="text-[3rem]"/>}
             icoclassN={`border-y border-x-[0.3rem]
-             bg-green-500 border-dashed
+             bg-green-500 border-dashed shadow shadow-black
               animate-bounce border-black`}
           />
        </div>

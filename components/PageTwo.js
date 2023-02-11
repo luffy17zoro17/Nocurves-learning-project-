@@ -19,10 +19,10 @@ const PageTwo = ()=> {
     useEffect(()=>{
       const listener = ()=>{
        
-        if(window.scrollY > 6600){
+        if(window.scrollY > 6500){
              dispatch(showBothText())
         }  
-        if(window.scrollY < 6600){
+        if(window.scrollY < 6500){
           dispatch(leaveBothText())
      }    
       } 

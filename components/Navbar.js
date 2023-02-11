@@ -86,7 +86,7 @@ const Navbar = () => {
                 <div key={item.id}>
                     <IconProp icon={item.icon} icoclassN={`border-4 border-green-500
                      p-1 hover:rotate-180 hover:border-yellow-300 cursor-pointer
-                     hover:text-cyan-300
+                     hover:text-green-500
                       ${item.id===1 ? `hidden md:flex` : item.id===2 ? `hidden lg:flex` : `flex`}`}/>
                 </div>
             ))}
@@ -95,11 +95,11 @@ const Navbar = () => {
           <div className="flex absolute pl-11 top-1 gap-9">
              <InputProp
                 inplaceholder={`Search Nocurves`}
-                inclassN={`outline-none border-4 border-cyan-500 p-2
-                  bg-black w-[18vw] text-cyan-300
+                inclassN={`outline-none border-4 border-green-500 p-2
+                  bg-black w-[18vw] text-green-300
                   hover:border-4 placeholder-white
                     hover:border-yellow-300
-                    hover:placeholder-cyan-300`}
+                    hover:placeholder-green-300`}
              />
           </div>
          </div> 
